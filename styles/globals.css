@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 :root {
+  --profile-gradient-primary-color: hsla(202, 44.1%, 18.2%, 1);
+  --profile-gradient-secondary-color: hsla(198, 71.8%, 69.4%, 1);
+  --profile-gradient-button-color: hsla(202, 44.1%, 18.2%, 1);
+  --profile-gradient-overlay-color: #00000099;
+  --profile-body-background-color: #00000073;
+  --profile-body-background-hover: #ffffff29;
+  --profile-body-divider-color: hsla(0, 0%, 100%, 0.24);
+  --profile-avatar-border-color: hsla(203, 44.4%, 7.1%, 1);
+  --profile-message-input-border-color: hsla(200, 26.5%, 52%, 1);
+  --profile-note-background-color: #0000004d;
+  --profile-role-pill-background-color: #292b2f80;
+  --profile-role-pill-border-color: #ffffff33;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
